@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://runtime-error.pages.dev';
+const DOMAIN = 'https://runtime-error.pageaura.xyz';
 const KEY = '2fc32bd0a9b34041a19b48d9631f53eb';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'runtime-error.pages.dev' ||
+    url.hostname.toLowerCase() !== 'runtime-error.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
