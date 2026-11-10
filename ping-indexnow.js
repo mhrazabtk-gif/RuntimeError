@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'runtime-error.pages.dev';
+const HOST = 'runtime-error.pageaura.xyz';
 const KEY = '2fc32bd0a9b34041a19b48d9631f53eb';
-const KEY_LOCATION = `https://runtime-error.pages.dev/2fc32bd0a9b34041a19b48d9631f53eb.txt`;
+const KEY_LOCATION = `https://runtime-error.pageaura.xyz/2fc32bd0a9b34041a19b48d9631f53eb.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
